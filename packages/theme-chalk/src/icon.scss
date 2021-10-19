@@ -1,0 +1,2421 @@
+@use './mixins/mixins.scss' as * ;
+
+@font-face {
+  font-family: "#{$namespace}-icon"; /* Project id 2875479 */
+  src: url('./fonts/iconfont.woff2') format('woff2'),
+  url('./fonts/iconfont.woff') format('woff'),
+  url('./fonts/iconfont.ttf') format('truetype');
+}
+
+[class^='#{$namespace}-icon'],[class*='#{$namespace}-icon'] {
+  font-family: "#{$namespace}-icon" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.#{$namespace}-icon {
+  font-family: "#{$namespace}-icon" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.#{$namespace}-icondelete:before {
+  content: "\e7f8";
+}
+
+.#{$namespace}-iconrest-fill:before {
+  content: "\e8f8";
+}
+
+.#{$namespace}-iconhourglass:before {
+  content: "\e7f9";
+}
+
+.#{$namespace}-iconshopping-fill:before {
+  content: "\e8f9";
+}
+
+.#{$namespace}-iconbulb:before {
+  content: "\e7fa";
+}
+
+.#{$namespace}-iconskin-fill:before {
+  content: "\e8fa";
+}
+
+.#{$namespace}-iconexperiment:before {
+  content: "\e7fb";
+}
+
+.#{$namespace}-iconvideo-fill:before {
+  content: "\e8fb";
+}
+
+.#{$namespace}-iconbell:before {
+  content: "\e7fc";
+}
+
+.#{$namespace}-iconsound-fill:before {
+  content: "\e8fc";
+}
+
+.#{$namespace}-icontrophy:before {
+  content: "\e7fd";
+}
+
+.#{$namespace}-iconbulb-fill:before {
+  content: "\e8fd";
+}
+
+.#{$namespace}-iconrest:before {
+  content: "\e7fe";
+}
+
+.#{$namespace}-iconbell-fill:before {
+  content: "\e8fe";
+}
+
+.#{$namespace}-iconUSB:before {
+  content: "\e7ff";
+}
+
+.#{$namespace}-iconfilter-fill:before {
+  content: "\e8ff";
+}
+
+.#{$namespace}-iconskin:before {
+  content: "\e800";
+}
+
+.#{$namespace}-iconfire-fill:before {
+  content: "\e900";
+}
+
+.#{$namespace}-iconhome:before {
+  content: "\e801";
+}
+
+.#{$namespace}-iconfunnelplot-fill:before {
+  content: "\e901";
+}
+
+.#{$namespace}-iconbank:before {
+  content: "\e802";
+}
+
+.#{$namespace}-icongift-fill:before {
+  content: "\e902";
+}
+
+.#{$namespace}-iconfilter:before {
+  content: "\e803";
+}
+
+.#{$namespace}-iconhourglass-fill:before {
+  content: "\e903";
+}
+
+.#{$namespace}-iconfunnelplot:before {
+  content: "\e804";
+}
+
+.#{$namespace}-iconhome-fill:before {
+  content: "\e904";
+}
+
+.#{$namespace}-iconlike:before {
+  content: "\e805";
+}
+
+.#{$namespace}-icontrophy-fill:before {
+  content: "\e905";
+}
+
+.#{$namespace}-iconunlike:before {
+  content: "\e806";
+}
+
+.#{$namespace}-iconlocation-fill:before {
+  content: "\e906";
+}
+
+.#{$namespace}-iconunlock:before {
+  content: "\e807";
+}
+
+.#{$namespace}-iconcloud-fill:before {
+  content: "\e907";
+}
+
+.#{$namespace}-iconlock:before {
+  content: "\e808";
+}
+
+.#{$namespace}-iconcustomerservice-fill:before {
+  content: "\e908";
+}
+
+.#{$namespace}-iconcustomerservice:before {
+  content: "\e809";
+}
+
+.#{$namespace}-iconexperiment-fill:before {
+  content: "\e909";
+}
+
+.#{$namespace}-iconflag:before {
+  content: "\e80a";
+}
+
+.#{$namespace}-iconeye-fill:before {
+  content: "\e90a";
+}
+
+.#{$namespace}-iconmoneycollect:before {
+  content: "\e80b";
+}
+
+.#{$namespace}-iconlike-fill:before {
+  content: "\e90b";
+}
+
+.#{$namespace}-iconmedicinebox:before {
+  content: "\e80c";
+}
+
+.#{$namespace}-iconlock-fill:before {
+  content: "\e90c";
+}
+
+.#{$namespace}-iconshop:before {
+  content: "\e80d";
+}
+
+.#{$namespace}-iconunlike-fill:before {
+  content: "\e90d";
+}
+
+.#{$namespace}-iconrocket:before {
+  content: "\e80e";
+}
+
+.#{$namespace}-iconstar-fill:before {
+  content: "\e90e";
+}
+
+.#{$namespace}-iconshopping:before {
+  content: "\e80f";
+}
+
+.#{$namespace}-iconunlock-fill:before {
+  content: "\e90f";
+}
+
+.#{$namespace}-iconfolder:before {
+  content: "\e810";
+}
+
+.#{$namespace}-iconalert-fill:before {
+  content: "\e910";
+}
+
+.#{$namespace}-iconfolder-open:before {
+  content: "\e811";
+}
+
+.#{$namespace}-iconapi-fill:before {
+  content: "\e911";
+}
+
+.#{$namespace}-iconfolder-add:before {
+  content: "\e812";
+}
+
+.#{$namespace}-iconhighlight-fill:before {
+  content: "\e912";
+}
+
+.#{$namespace}-icondeploymentunit:before {
+  content: "\e813";
+}
+
+.#{$namespace}-iconphone-fill:before {
+  content: "\e913";
+}
+
+.#{$namespace}-iconaccountbook:before {
+  content: "\e814";
+}
+
+.#{$namespace}-iconedit-fill:before {
+  content: "\e914";
+}
+
+.#{$namespace}-iconcontacts:before {
+  content: "\e815";
+}
+
+.#{$namespace}-iconpushpin-fill:before {
+  content: "\e915";
+}
+
+.#{$namespace}-iconcarryout:before {
+  content: "\e816";
+}
+
+.#{$namespace}-iconrocket-fill:before {
+  content: "\e916";
+}
+
+.#{$namespace}-iconcalendar-check:before {
+  content: "\e817";
+}
+
+.#{$namespace}-iconthunderbolt-fill:before {
+  content: "\e917";
+}
+
+.#{$namespace}-iconcalendar:before {
+  content: "\e818";
+}
+
+.#{$namespace}-icontag-fill:before {
+  content: "\e918";
+}
+
+.#{$namespace}-iconscan:before {
+  content: "\e819";
+}
+
+.#{$namespace}-iconwrench-fill:before {
+  content: "\e919";
+}
+
+.#{$namespace}-iconselect:before {
+  content: "\e81a";
+}
+
+.#{$namespace}-icontags-fill:before {
+  content: "\e91a";
+}
+
+.#{$namespace}-iconboxplot:before {
+  content: "\e81b";
+}
+
+.#{$namespace}-iconbank-fill:before {
+  content: "\e91b";
+}
+
+.#{$namespace}-iconbuild:before {
+  content: "\e81c";
+}
+
+.#{$namespace}-iconcamera-fill:before {
+  content: "\e91c";
+}
+
+.#{$namespace}-iconsliders:before {
+  content: "\e81d";
+}
+
+.#{$namespace}-iconerror-fill:before {
+  content: "\e91d";
+}
+
+.#{$namespace}-iconlaptop:before {
+  content: "\e81e";
+}
+
+.#{$namespace}-iconcrown-fill:before {
+  content: "\e91e";
+}
+
+.#{$namespace}-iconbarcode:before {
+  content: "\e81f";
+}
+
+.#{$namespace}-iconmail-fill:before {
+  content: "\e91f";
+}
+
+.#{$namespace}-iconcamera:before {
+  content: "\e820";
+}
+
+.#{$namespace}-iconcar-fill:before {
+  content: "\e920";
+}
+
+.#{$namespace}-iconcluster:before {
+  content: "\e821";
+}
+
+.#{$namespace}-iconprinter-fill:before {
+  content: "\e921";
+}
+
+.#{$namespace}-icongateway:before {
+  content: "\e822";
+}
+
+.#{$namespace}-iconshop-fill:before {
+  content: "\e922";
+}
+
+.#{$namespace}-iconcar:before {
+  content: "\e823";
+}
+
+.#{$namespace}-iconsetting-fill:before {
+  content: "\e923";
+}
+
+.#{$namespace}-iconprinter:before {
+  content: "\e824";
+}
+
+.#{$namespace}-iconUSB-fill:before {
+  content: "\e924";
+}
+
+.#{$namespace}-iconread:before {
+  content: "\e825";
+}
+
+.#{$namespace}-icongolden-fill:before {
+  content: "\e925";
+}
+
+.#{$namespace}-iconcloud-server:before {
+  content: "\e826";
+}
+
+.#{$namespace}-iconbuild-fill:before {
+  content: "\e926";
+}
+
+.#{$namespace}-iconcloud-upload:before {
+  content: "\e827";
+}
+
+.#{$namespace}-iconboxplot-fill:before {
+  content: "\e927";
+}
+
+.#{$namespace}-iconcloud:before {
+  content: "\e828";
+}
+
+.#{$namespace}-iconsliders-fill:before {
+  content: "\e928";
+}
+
+.#{$namespace}-iconcloud-download:before {
+  content: "\e829";
+}
+
+.#{$namespace}-iconalibaba:before {
+  content: "\e929";
+}
+
+.#{$namespace}-iconcloud-sync:before {
+  content: "\e82a";
+}
+
+.#{$namespace}-iconantdesign:before {
+  content: "\e92a";
+}
+
+.#{$namespace}-iconvideo:before {
+  content: "\e82b";
+}
+
+.#{$namespace}-iconant-cloud:before {
+  content: "\e92b";
+}
+
+.#{$namespace}-iconnotification:before {
+  content: "\e82c";
+}
+
+.#{$namespace}-iconbehance:before {
+  content: "\e92c";
+}
+
+.#{$namespace}-iconsound:before {
+  content: "\e82d";
+}
+
+.#{$namespace}-icongoogleplus:before {
+  content: "\e92d";
+}
+
+.#{$namespace}-iconradarchart:before {
+  content: "\e82e";
+}
+
+.#{$namespace}-iconmedium:before {
+  content: "\e92e";
+}
+
+.#{$namespace}-iconqrcode:before {
+  content: "\e82f";
+}
+
+.#{$namespace}-icongoogle:before {
+  content: "\e92f";
+}
+
+.#{$namespace}-iconfund:before {
+  content: "\e830";
+}
+
+.#{$namespace}-iconIE:before {
+  content: "\e930";
+}
+
+.#{$namespace}-iconimage:before {
+  content: "\e831";
+}
+
+.#{$namespace}-iconamazon:before {
+  content: "\e931";
+}
+
+.#{$namespace}-iconmail:before {
+  content: "\e832";
+}
+
+.#{$namespace}-iconslack:before {
+  content: "\e932";
+}
+
+.#{$namespace}-icontable:before {
+  content: "\e833";
+}
+
+.#{$namespace}-iconalipay:before {
+  content: "\e933";
+}
+
+.#{$namespace}-iconidcard:before {
+  content: "\e834";
+}
+
+.#{$namespace}-icontaobao:before {
+  content: "\e934";
+}
+
+.#{$namespace}-iconcreditcard:before {
+  content: "\e835";
+}
+
+.#{$namespace}-iconzhihu:before {
+  content: "\e935";
+}
+
+.#{$namespace}-iconheart:before {
+  content: "\e836";
+}
+
+.#{$namespace}-iconHTML:before {
+  content: "\e936";
+}
+
+.#{$namespace}-iconblock:before {
+  content: "\e837";
+}
+
+.#{$namespace}-iconlinkedin:before {
+  content: "\e937";
+}
+
+.#{$namespace}-iconerror:before {
+  content: "\e838";
+}
+
+.#{$namespace}-iconyahoo:before {
+  content: "\e938";
+}
+
+.#{$namespace}-iconstar:before {
+  content: "\e839";
+}
+
+.#{$namespace}-iconfacebook:before {
+  content: "\e939";
+}
+
+.#{$namespace}-icongold:before {
+  content: "\e83a";
+}
+
+.#{$namespace}-iconskype:before {
+  content: "\e93a";
+}
+
+.#{$namespace}-iconheatmap:before {
+  content: "\e83b";
+}
+
+.#{$namespace}-iconCodeSandbox:before {
+  content: "\e93b";
+}
+
+.#{$namespace}-iconwifi:before {
+  content: "\e83c";
+}
+
+.#{$namespace}-iconchrome:before {
+  content: "\e93c";
+}
+
+.#{$namespace}-iconattachment:before {
+  content: "\e83d";
+}
+
+.#{$namespace}-iconcodepen:before {
+  content: "\e93d";
+}
+
+.#{$namespace}-iconedit:before {
+  content: "\e83e";
+}
+
+.#{$namespace}-iconaliwangwang:before {
+  content: "\e93e";
+}
+
+.#{$namespace}-iconkey:before {
+  content: "\e83f";
+}
+
+.#{$namespace}-iconapple:before {
+  content: "\e93f";
+}
+
+.#{$namespace}-iconapi:before {
+  content: "\e840";
+}
+
+.#{$namespace}-iconandroid:before {
+  content: "\e940";
+}
+
+.#{$namespace}-icondisconnect:before {
+  content: "\e841";
+}
+
+.#{$namespace}-iconsketch:before {
+  content: "\e941";
+}
+
+.#{$namespace}-iconhighlight:before {
+  content: "\e842";
+}
+
+.#{$namespace}-iconGitlab:before {
+  content: "\e942";
+}
+
+.#{$namespace}-iconmonitor:before {
+  content: "\e843";
+}
+
+.#{$namespace}-icondribbble:before {
+  content: "\e943";
+}
+
+.#{$namespace}-iconlink:before {
+  content: "\e844";
+}
+
+.#{$namespace}-iconinstagram:before {
+  content: "\e944";
+}
+
+.#{$namespace}-iconman:before {
+  content: "\e845";
+}
+
+.#{$namespace}-iconreddit:before {
+  content: "\e945";
+}
+
+.#{$namespace}-iconpercentage:before {
+  content: "\e846";
+}
+
+.#{$namespace}-iconwindows:before {
+  content: "\e946";
+}
+
+.#{$namespace}-iconpushpin:before {
+  content: "\e847";
+}
+
+.#{$namespace}-iconyuque:before {
+  content: "\e947";
+}
+
+.#{$namespace}-iconphone:before {
+  content: "\e848";
+}
+
+.#{$namespace}-iconYoutube:before {
+  content: "\e948";
+}
+
+.#{$namespace}-iconshake:before {
+  content: "\e849";
+}
+
+.#{$namespace}-iconGitlab-fill:before {
+  content: "\e949";
+}
+
+.#{$namespace}-icontag:before {
+  content: "\e84a";
+}
+
+.#{$namespace}-icondropbox:before {
+  content: "\e94a";
+}
+
+.#{$namespace}-iconwrench:before {
+  content: "\e84b";
+}
+
+.#{$namespace}-icondingtalk:before {
+  content: "\e94b";
+}
+
+.#{$namespace}-icontags:before {
+  content: "\e84c";
+}
+
+.#{$namespace}-iconandroid-fill:before {
+  content: "\e94c";
+}
+
+.#{$namespace}-iconscissor:before {
+  content: "\e84d";
+}
+
+.#{$namespace}-iconapple-fill:before {
+  content: "\e94d";
+}
+
+.#{$namespace}-iconmr:before {
+  content: "\e84e";
+}
+
+.#{$namespace}-iconHTML-fill:before {
+  content: "\e94e";
+}
+
+.#{$namespace}-iconshare:before {
+  content: "\e84f";
+}
+
+.#{$namespace}-iconwindows-fill:before {
+  content: "\e94f";
+}
+
+.#{$namespace}-iconbranches:before {
+  content: "\e850";
+}
+
+.#{$namespace}-iconQQ:before {
+  content: "\e950";
+}
+
+.#{$namespace}-iconfork:before {
+  content: "\e851";
+}
+
+.#{$namespace}-icontwitter:before {
+  content: "\e951";
+}
+
+.#{$namespace}-iconshrink:before {
+  content: "\e852";
+}
+
+.#{$namespace}-iconskype-fill:before {
+  content: "\e952";
+}
+
+.#{$namespace}-iconarrawsalt:before {
+  content: "\e853";
+}
+
+.#{$namespace}-iconweibo:before {
+  content: "\e953";
+}
+
+.#{$namespace}-iconverticalright:before {
+  content: "\e854";
+}
+
+.#{$namespace}-iconyuque-fill:before {
+  content: "\e954";
+}
+
+.#{$namespace}-iconverticalleft:before {
+  content: "\e855";
+}
+
+.#{$namespace}-iconYoutube-fill:before {
+  content: "\e955";
+}
+
+.#{$namespace}-iconright:before {
+  content: "\e856";
+}
+
+.#{$namespace}-iconyahoo-fill:before {
+  content: "\e956";
+}
+
+.#{$namespace}-iconleft:before {
+  content: "\e857";
+}
+
+.#{$namespace}-iconwechat-fill:before {
+  content: "\e957";
+}
+
+.#{$namespace}-iconup:before {
+  content: "\e858";
+}
+
+.#{$namespace}-iconchrome-fill:before {
+  content: "\e958";
+}
+
+.#{$namespace}-icondown:before {
+  content: "\e859";
+}
+
+.#{$namespace}-iconalipay-circle-fill:before {
+  content: "\e959";
+}
+
+.#{$namespace}-iconfullscreen:before {
+  content: "\e85a";
+}
+
+.#{$namespace}-iconaliwangwang-fill:before {
+  content: "\e95a";
+}
+
+.#{$namespace}-iconfullscreen-exit:before {
+  content: "\e85b";
+}
+
+.#{$namespace}-iconbehance-circle-fill:before {
+  content: "\e95b";
+}
+
+.#{$namespace}-icondoubleleft:before {
+  content: "\e85c";
+}
+
+.#{$namespace}-iconamazon-circle-fill:before {
+  content: "\e95c";
+}
+
+.#{$namespace}-icondoubleright:before {
+  content: "\e85d";
+}
+
+.#{$namespace}-iconcodepen-circle-fill:before {
+  content: "\e95d";
+}
+
+.#{$namespace}-iconarrowright:before {
+  content: "\e85e";
+}
+
+.#{$namespace}-iconCodeSandbox-circle-f:before {
+  content: "\e95e";
+}
+
+.#{$namespace}-iconarrowup:before {
+  content: "\e85f";
+}
+
+.#{$namespace}-icondropbox-circle-fill:before {
+  content: "\e95f";
+}
+
+.#{$namespace}-iconarrowleft:before {
+  content: "\e860";
+}
+
+.#{$namespace}-icongithub-fill:before {
+  content: "\e960";
+}
+
+.#{$namespace}-iconarrowdown:before {
+  content: "\e861";
+}
+
+.#{$namespace}-icondribbble-circle-fill:before {
+  content: "\e961";
+}
+
+.#{$namespace}-iconupload:before {
+  content: "\e862";
+}
+
+.#{$namespace}-icongoogleplus-circle-f:before {
+  content: "\e962";
+}
+
+.#{$namespace}-iconcolum-height:before {
+  content: "\e863";
+}
+
+.#{$namespace}-iconmedium-circle-fill:before {
+  content: "\e963";
+}
+
+.#{$namespace}-iconvertical-align-botto:before {
+  content: "\e864";
+}
+
+.#{$namespace}-iconQQ-circle-fill:before {
+  content: "\e964";
+}
+
+.#{$namespace}-iconvertical-align-middl:before {
+  content: "\e865";
+}
+
+.#{$namespace}-iconIE-circle-fill:before {
+  content: "\e965";
+}
+
+.#{$namespace}-icontotop:before {
+  content: "\e866";
+}
+
+.#{$namespace}-icongoogle-circle-fill:before {
+  content: "\e966";
+}
+
+.#{$namespace}-iconvertical-align-top:before {
+  content: "\e867";
+}
+
+.#{$namespace}-icondingtalk-circle-fill:before {
+  content: "\e967";
+}
+
+.#{$namespace}-icondownload:before {
+  content: "\e868";
+}
+
+.#{$namespace}-iconsketch-circle-fill:before {
+  content: "\e968";
+}
+
+.#{$namespace}-iconsort-descending:before {
+  content: "\e869";
+}
+
+.#{$namespace}-iconslack-circle-fill:before {
+  content: "\e969";
+}
+
+.#{$namespace}-iconsort-ascending:before {
+  content: "\e86a";
+}
+
+.#{$namespace}-icontwitter-circle-fill:before {
+  content: "\e96a";
+}
+
+.#{$namespace}-iconfall:before {
+  content: "\e86b";
+}
+
+.#{$namespace}-icontaobao-circle-fill:before {
+  content: "\e96b";
+}
+
+.#{$namespace}-iconswap:before {
+  content: "\e86c";
+}
+
+.#{$namespace}-iconweibo-circle-fill:before {
+  content: "\e96c";
+}
+
+.#{$namespace}-iconstock:before {
+  content: "\e86d";
+}
+
+.#{$namespace}-iconzhihu-circle-fill:before {
+  content: "\e96d";
+}
+
+.#{$namespace}-iconrise:before {
+  content: "\e86e";
+}
+
+.#{$namespace}-iconreddit-circle-fill:before {
+  content: "\e96e";
+}
+
+.#{$namespace}-iconindent:before {
+  content: "\e86f";
+}
+
+.#{$namespace}-iconalipay-square-fill:before {
+  content: "\e96f";
+}
+
+.#{$namespace}-iconoutdent:before {
+  content: "\e870";
+}
+
+.#{$namespace}-icondingtalk-square-fill:before {
+  content: "\e970";
+}
+
+.#{$namespace}-iconmenu:before {
+  content: "\e871";
+}
+
+.#{$namespace}-iconCodeSandbox-square-f:before {
+  content: "\e971";
+}
+
+.#{$namespace}-iconunorderedlist:before {
+  content: "\e872";
+}
+
+.#{$namespace}-iconbehance-square-fill:before {
+  content: "\e972";
+}
+
+.#{$namespace}-iconorderedlist:before {
+  content: "\e873";
+}
+
+.#{$namespace}-iconamazon-square-fill:before {
+  content: "\e973";
+}
+
+.#{$namespace}-iconalign-right:before {
+  content: "\e874";
+}
+
+.#{$namespace}-iconcodepen-square-fill:before {
+  content: "\e974";
+}
+
+.#{$namespace}-iconalign-center:before {
+  content: "\e875";
+}
+
+.#{$namespace}-icondribbble-square-fill:before {
+  content: "\e975";
+}
+
+.#{$namespace}-iconalign-left:before {
+  content: "\e876";
+}
+
+.#{$namespace}-icondropbox-square-fill:before {
+  content: "\e976";
+}
+
+.#{$namespace}-iconpic-center:before {
+  content: "\e877";
+}
+
+.#{$namespace}-iconfacebook-fill:before {
+  content: "\e977";
+}
+
+.#{$namespace}-iconpic-right:before {
+  content: "\e878";
+}
+
+.#{$namespace}-icongoogleplus-square-f:before {
+  content: "\e978";
+}
+
+.#{$namespace}-iconpic-left:before {
+  content: "\e879";
+}
+
+.#{$namespace}-icongoogle-square-fill:before {
+  content: "\e979";
+}
+
+.#{$namespace}-iconbold:before {
+  content: "\e87a";
+}
+
+.#{$namespace}-iconinstagram-fill:before {
+  content: "\e97a";
+}
+
+.#{$namespace}-iconfont-colors:before {
+  content: "\e87b";
+}
+
+.#{$namespace}-iconIE-square-fill:before {
+  content: "\e97b";
+}
+
+.#{$namespace}-iconexclaimination:before {
+  content: "\e87c";
+}
+
+.#{$namespace}-iconmedium-square-fill:before {
+  content: "\e97c";
+}
+
+.#{$namespace}-iconcheck-circle:before {
+  content: "\e77d";
+}
+
+.#{$namespace}-iconfont-size:before {
+  content: "\e87d";
+}
+
+.#{$namespace}-iconlinkedin-fill:before {
+  content: "\e97d";
+}
+
+.#{$namespace}-iconCI:before {
+  content: "\e77e";
+}
+
+.#{$namespace}-iconinfomation:before {
+  content: "\e87e";
+}
+
+.#{$namespace}-iconQQ-square-fill:before {
+  content: "\e97e";
+}
+
+.#{$namespace}-iconDollar:before {
+  content: "\e77f";
+}
+
+.#{$namespace}-iconline-height:before {
+  content: "\e87f";
+}
+
+.#{$namespace}-iconreddit-square-fill:before {
+  content: "\e97f";
+}
+
+.#{$namespace}-iconcompass:before {
+  content: "\e780";
+}
+
+.#{$namespace}-iconstrikethrough:before {
+  content: "\e880";
+}
+
+.#{$namespace}-icontwitter-square-fill:before {
+  content: "\e980";
+}
+
+.#{$namespace}-iconclose-circle:before {
+  content: "\e781";
+}
+
+.#{$namespace}-iconunderline:before {
+  content: "\e881";
+}
+
+.#{$namespace}-iconsketch-square-fill:before {
+  content: "\e981";
+}
+
+.#{$namespace}-iconfrown:before {
+  content: "\e782";
+}
+
+.#{$namespace}-iconnumber:before {
+  content: "\e882";
+}
+
+.#{$namespace}-iconslack-square-fill:before {
+  content: "\e982";
+}
+
+.#{$namespace}-iconinfo-circle:before {
+  content: "\e783";
+}
+
+.#{$namespace}-iconitalic:before {
+  content: "\e883";
+}
+
+.#{$namespace}-icontaobao-square-fill:before {
+  content: "\e983";
+}
+
+.#{$namespace}-iconleft-circle:before {
+  content: "\e784";
+}
+
+.#{$namespace}-iconcode:before {
+  content: "\e884";
+}
+
+.#{$namespace}-iconweibo-square-fill:before {
+  content: "\e984";
+}
+
+.#{$namespace}-icondown-circle:before {
+  content: "\e785";
+}
+
+.#{$namespace}-iconcolumn-width:before {
+  content: "\e885";
+}
+
+.#{$namespace}-iconzhihu-square-fill:before {
+  content: "\e985";
+}
+
+.#{$namespace}-iconEURO:before {
+  content: "\e786";
+}
+
+.#{$namespace}-iconcheck:before {
+  content: "\e886";
+}
+
+.#{$namespace}-iconzoomout:before {
+  content: "\e986";
+}
+
+.#{$namespace}-iconcopyright:before {
+  content: "\e787";
+}
+
+.#{$namespace}-iconellipsis:before {
+  content: "\e887";
+}
+
+.#{$namespace}-iconapartment:before {
+  content: "\e987";
+}
+
+.#{$namespace}-iconminus-circle:before {
+  content: "\e788";
+}
+
+.#{$namespace}-icondash:before {
+  content: "\e888";
+}
+
+.#{$namespace}-iconaudio:before {
+  content: "\e988";
+}
+
+.#{$namespace}-iconmeh:before {
+  content: "\e789";
+}
+
+.#{$namespace}-iconclose:before {
+  content: "\e889";
+}
+
+.#{$namespace}-iconaudio-fill:before {
+  content: "\e989";
+}
+
+.#{$namespace}-iconplus-circle:before {
+  content: "\e78a";
+}
+
+.#{$namespace}-iconenter:before {
+  content: "\e88a";
+}
+
+.#{$namespace}-iconrobot:before {
+  content: "\e98a";
+}
+
+.#{$namespace}-iconplay-circle:before {
+  content: "\e78b";
+}
+
+.#{$namespace}-iconline:before {
+  content: "\e88b";
+}
+
+.#{$namespace}-iconzoomin:before {
+  content: "\e98b";
+}
+
+.#{$namespace}-iconquestion-circle:before {
+  content: "\e78c";
+}
+
+.#{$namespace}-iconminus:before {
+  content: "\e88c";
+}
+
+.#{$namespace}-iconrobot-fill:before {
+  content: "\e98c";
+}
+
+.#{$namespace}-iconPound:before {
+  content: "\e78d";
+}
+
+.#{$namespace}-iconquestion:before {
+  content: "\e88d";
+}
+
+.#{$namespace}-iconbug-fill:before {
+  content: "\e98d";
+}
+
+.#{$namespace}-iconright-circle:before {
+  content: "\e78e";
+}
+
+.#{$namespace}-iconrollback:before {
+  content: "\e88e";
+}
+
+.#{$namespace}-iconbug:before {
+  content: "\e98e";
+}
+
+.#{$namespace}-iconsmile:before {
+  content: "\e78f";
+}
+
+.#{$namespace}-iconsmall-dash:before {
+  content: "\e88f";
+}
+
+.#{$namespace}-iconaudiostatic:before {
+  content: "\e98f";
+}
+
+.#{$namespace}-icontrademark:before {
+  content: "\e790";
+}
+
+.#{$namespace}-iconpause:before {
+  content: "\e890";
+}
+
+.#{$namespace}-iconcomment:before {
+  content: "\e990";
+}
+
+.#{$namespace}-icontime-circle:before {
+  content: "\e791";
+}
+
+.#{$namespace}-iconbg-colors:before {
+  content: "\e891";
+}
+
+.#{$namespace}-iconsignal-fill:before {
+  content: "\e991";
+}
+
+.#{$namespace}-icontimeout:before {
+  content: "\e792";
+}
+
+.#{$namespace}-iconcrown:before {
+  content: "\e892";
+}
+
+.#{$namespace}-iconverified:before {
+  content: "\e992";
+}
+
+.#{$namespace}-iconearth:before {
+  content: "\e793";
+}
+
+.#{$namespace}-icondrag:before {
+  content: "\e893";
+}
+
+.#{$namespace}-iconshortcut-fill:before {
+  content: "\e993";
+}
+
+.#{$namespace}-iconYUAN:before {
+  content: "\e794";
+}
+
+.#{$namespace}-icondesktop:before {
+  content: "\e894";
+}
+
+.#{$namespace}-iconvideocameraadd:before {
+  content: "\e994";
+}
+
+.#{$namespace}-iconup-circle:before {
+  content: "\e795";
+}
+
+.#{$namespace}-icongift:before {
+  content: "\e895";
+}
+
+.#{$namespace}-iconswitchuser:before {
+  content: "\e995";
+}
+
+.#{$namespace}-iconwarning-circle:before {
+  content: "\e796";
+}
+
+.#{$namespace}-iconstop:before {
+  content: "\e896";
+}
+
+.#{$namespace}-iconwhatsapp:before {
+  content: "\e996";
+}
+
+.#{$namespace}-iconsync:before {
+  content: "\e797";
+}
+
+.#{$namespace}-iconfire:before {
+  content: "\e897";
+}
+
+.#{$namespace}-iconappstoreadd:before {
+  content: "\e997";
+}
+
+.#{$namespace}-icontransaction:before {
+  content: "\e798";
+}
+
+.#{$namespace}-iconthunderbolt:before {
+  content: "\e898";
+}
+
+.#{$namespace}-iconcaret-down:before {
+  content: "\e998";
+}
+
+.#{$namespace}-iconundo:before {
+  content: "\e799";
+}
+
+.#{$namespace}-iconcheck-circle-fill:before {
+  content: "\e899";
+}
+
+.#{$namespace}-iconbackward:before {
+  content: "\e999";
+}
+
+.#{$namespace}-iconredo:before {
+  content: "\e79a";
+}
+
+.#{$namespace}-iconleft-circle-fill:before {
+  content: "\e89a";
+}
+
+.#{$namespace}-iconcaret-up:before {
+  content: "\e99a";
+}
+
+.#{$namespace}-iconreload:before {
+  content: "\e79b";
+}
+
+.#{$namespace}-icondown-circle-fill:before {
+  content: "\e89b";
+}
+
+.#{$namespace}-iconcaret-right:before {
+  content: "\e99b";
+}
+
+.#{$namespace}-iconreloadtime:before {
+  content: "\e79c";
+}
+
+.#{$namespace}-iconminus-circle-fill:before {
+  content: "\e89c";
+}
+
+.#{$namespace}-iconcaret-left:before {
+  content: "\e99c";
+}
+
+.#{$namespace}-iconmessage:before {
+  content: "\e79d";
+}
+
+.#{$namespace}-iconclose-circle-fill:before {
+  content: "\e89d";
+}
+
+.#{$namespace}-iconfast-backward:before {
+  content: "\e99d";
+}
+
+.#{$namespace}-icondashboard:before {
+  content: "\e79e";
+}
+
+.#{$namespace}-iconinfo-circle-fill:before {
+  content: "\e89e";
+}
+
+.#{$namespace}-iconforward:before {
+  content: "\e99e";
+}
+
+.#{$namespace}-iconissuesclose:before {
+  content: "\e79f";
+}
+
+.#{$namespace}-iconup-circle-fill:before {
+  content: "\e89f";
+}
+
+.#{$namespace}-iconfast-forward:before {
+  content: "\e99f";
+}
+
+.#{$namespace}-iconpoweroff:before {
+  content: "\e7a0";
+}
+
+.#{$namespace}-iconright-circle-fill:before {
+  content: "\e8a0";
+}
+
+.#{$namespace}-iconsearch:before {
+  content: "\e9a0";
+}
+
+.#{$namespace}-iconlogout:before {
+  content: "\e7a1";
+}
+
+.#{$namespace}-iconplus-circle-fill:before {
+  content: "\e8a1";
+}
+
+.#{$namespace}-iconretweet:before {
+  content: "\e9a1";
+}
+
+.#{$namespace}-iconpiechart:before {
+  content: "\e7a2";
+}
+
+.#{$namespace}-iconquestion-circle-fill:before {
+  content: "\e8a2";
+}
+
+.#{$namespace}-iconlogin:before {
+  content: "\e9a2";
+}
+
+.#{$namespace}-iconsetting:before {
+  content: "\e7a3";
+}
+
+.#{$namespace}-iconEURO-circle-fill:before {
+  content: "\e8a3";
+}
+
+.#{$namespace}-iconstep-backward:before {
+  content: "\e9a3";
+}
+
+.#{$namespace}-iconeye:before {
+  content: "\e7a4";
+}
+
+.#{$namespace}-iconfrown-fill:before {
+  content: "\e8a4";
+}
+
+.#{$namespace}-iconstep-forward:before {
+  content: "\e9a4";
+}
+
+.#{$namespace}-iconlocation:before {
+  content: "\e7a5";
+}
+
+.#{$namespace}-iconcopyright-circle-fil:before {
+  content: "\e8a5";
+}
+
+.#{$namespace}-iconswap-right:before {
+  content: "\e9a5";
+}
+
+.#{$namespace}-iconedit-square:before {
+  content: "\e7a6";
+}
+
+.#{$namespace}-iconCI-circle-fill:before {
+  content: "\e8a6";
+}
+
+.#{$namespace}-iconswap-left:before {
+  content: "\e9a6";
+}
+
+.#{$namespace}-iconexport:before {
+  content: "\e7a7";
+}
+
+.#{$namespace}-iconcompass-fill:before {
+  content: "\e8a7";
+}
+
+.#{$namespace}-iconwoman:before {
+  content: "\e9a7";
+}
+
+.#{$namespace}-iconsave:before {
+  content: "\e7a8";
+}
+
+.#{$namespace}-iconDollar-circle-fill:before {
+  content: "\e8a8";
+}
+
+.#{$namespace}-iconplus:before {
+  content: "\e9a8";
+}
+
+.#{$namespace}-iconImport:before {
+  content: "\e7a9";
+}
+
+.#{$namespace}-iconpoweroff-circle-fill:before {
+  content: "\e8a9";
+}
+
+.#{$namespace}-iconeyeclose-fill:before {
+  content: "\e9a9";
+}
+
+.#{$namespace}-iconappstore:before {
+  content: "\e7aa";
+}
+
+.#{$namespace}-iconmeh-fill:before {
+  content: "\e8aa";
+}
+
+.#{$namespace}-iconeye-close:before {
+  content: "\e9aa";
+}
+
+.#{$namespace}-iconclose-square:before {
+  content: "\e7ab";
+}
+
+.#{$namespace}-iconplay-circle-fill:before {
+  content: "\e8ab";
+}
+
+.#{$namespace}-iconclear:before {
+  content: "\e9ab";
+}
+
+.#{$namespace}-icondown-square:before {
+  content: "\e7ac";
+}
+
+.#{$namespace}-iconPound-circle-fill:before {
+  content: "\e8ac";
+}
+
+.#{$namespace}-iconcollapse:before {
+  content: "\e9ac";
+}
+
+.#{$namespace}-iconlayout:before {
+  content: "\e7ad";
+}
+
+.#{$namespace}-iconsmile-fill:before {
+  content: "\e8ad";
+}
+
+.#{$namespace}-iconexpand:before {
+  content: "\e9ad";
+}
+
+.#{$namespace}-iconleft-square:before {
+  content: "\e7ae";
+}
+
+.#{$namespace}-iconstop-fill:before {
+  content: "\e8ae";
+}
+
+.#{$namespace}-icondeletecolumn:before {
+  content: "\e9ae";
+}
+
+.#{$namespace}-iconplay-square:before {
+  content: "\e7af";
+}
+
+.#{$namespace}-iconwarning-circle-fill:before {
+  content: "\e8af";
+}
+
+.#{$namespace}-iconmerge-cells:before {
+  content: "\e9af";
+}
+
+.#{$namespace}-iconcontrol:before {
+  content: "\e7b0";
+}
+
+.#{$namespace}-icontime-circle-fill:before {
+  content: "\e8b0";
+}
+
+.#{$namespace}-iconsubnode:before {
+  content: "\e9b0";
+}
+
+.#{$namespace}-iconcodelibrary:before {
+  content: "\e7b1";
+}
+
+.#{$namespace}-icontrademark-circle-fil:before {
+  content: "\e8b1";
+}
+
+.#{$namespace}-iconrotate-left:before {
+  content: "\e9b1";
+}
+
+.#{$namespace}-icondetail:before {
+  content: "\e7b2";
+}
+
+.#{$namespace}-iconYUAN-circle-fill:before {
+  content: "\e8b2";
+}
+
+.#{$namespace}-iconrotate-right:before {
+  content: "\e9b2";
+}
+
+.#{$namespace}-iconminus-square:before {
+  content: "\e7b3";
+}
+
+.#{$namespace}-iconheart-fill:before {
+  content: "\e8b3";
+}
+
+.#{$namespace}-iconinsertrowbelow:before {
+  content: "\e9b3";
+}
+
+.#{$namespace}-iconplus-square:before {
+  content: "\e7b4";
+}
+
+.#{$namespace}-iconpiechart-circle-fil:before {
+  content: "\e8b4";
+}
+
+.#{$namespace}-iconinsertrowabove:before {
+  content: "\e9b4";
+}
+
+.#{$namespace}-iconright-square:before {
+  content: "\e7b5";
+}
+
+.#{$namespace}-icondashboard-fill:before {
+  content: "\e8b5";
+}
+
+.#{$namespace}-icontable1:before {
+  content: "\e9b5";
+}
+
+.#{$namespace}-iconproject:before {
+  content: "\e7b6";
+}
+
+.#{$namespace}-iconmessage-fill:before {
+  content: "\e8b6";
+}
+
+.#{$namespace}-iconsolit-cells:before {
+  content: "\e9b6";
+}
+
+.#{$namespace}-iconwallet:before {
+  content: "\e7b7";
+}
+
+.#{$namespace}-iconcheck-square-fill:before {
+  content: "\e8b7";
+}
+
+.#{$namespace}-iconformatpainter:before {
+  content: "\e9b7";
+}
+
+.#{$namespace}-iconup-square:before {
+  content: "\e7b8";
+}
+
+.#{$namespace}-icondown-square-fill:before {
+  content: "\e8b8";
+}
+
+.#{$namespace}-iconinsertrowright:before {
+  content: "\e9b8";
+}
+
+.#{$namespace}-iconcalculator:before {
+  content: "\e7b9";
+}
+
+.#{$namespace}-iconminus-square-fill:before {
+  content: "\e8b9";
+}
+
+.#{$namespace}-iconformatpainter-fill:before {
+  content: "\e9b9";
+}
+
+.#{$namespace}-iconinteration:before {
+  content: "\e7ba";
+}
+
+.#{$namespace}-iconclose-square-fill:before {
+  content: "\e8ba";
+}
+
+.#{$namespace}-iconinsertrowleft:before {
+  content: "\e9ba";
+}
+
+.#{$namespace}-iconcheck-square:before {
+  content: "\e7bb";
+}
+
+.#{$namespace}-iconcodelibrary-fill:before {
+  content: "\e8bb";
+}
+
+.#{$namespace}-icontranslate:before {
+  content: "\e9bb";
+}
+
+.#{$namespace}-iconborder:before {
+  content: "\e7bc";
+}
+
+.#{$namespace}-iconleft-square-fill:before {
+  content: "\e8bc";
+}
+
+.#{$namespace}-icondeleterow:before {
+  content: "\e9bc";
+}
+
+.#{$namespace}-iconborder-outer:before {
+  content: "\e7bd";
+}
+
+.#{$namespace}-iconplay-square-fill:before {
+  content: "\e8bd";
+}
+
+.#{$namespace}-iconsisternode:before {
+  content: "\e9bd";
+}
+
+.#{$namespace}-iconborder-top:before {
+  content: "\e7be";
+}
+
+.#{$namespace}-iconup-square-fill:before {
+  content: "\e8be";
+}
+
+.#{$namespace}-iconField-number:before {
+  content: "\e9be";
+}
+
+.#{$namespace}-iconborder-bottom:before {
+  content: "\e7bf";
+}
+
+.#{$namespace}-iconright-square-fill:before {
+  content: "\e8bf";
+}
+
+.#{$namespace}-iconField-String:before {
+  content: "\e9bf";
+}
+
+.#{$namespace}-iconborder-left:before {
+  content: "\e7c0";
+}
+
+.#{$namespace}-iconplus-square-fill:before {
+  content: "\e8c0";
+}
+
+.#{$namespace}-iconFunction:before {
+  content: "\e9c0";
+}
+
+.#{$namespace}-iconborder-right:before {
+  content: "\e7c1";
+}
+
+.#{$namespace}-iconaccountbook-fill:before {
+  content: "\e8c1";
+}
+
+.#{$namespace}-iconField-time:before {
+  content: "\e9c1";
+}
+
+.#{$namespace}-iconborder-inner:before {
+  content: "\e7c2";
+}
+
+.#{$namespace}-iconcarryout-fill:before {
+  content: "\e8c2";
+}
+
+.#{$namespace}-iconGIF:before {
+  content: "\e9c2";
+}
+
+.#{$namespace}-iconborder-verticle:before {
+  content: "\e7c3";
+}
+
+.#{$namespace}-iconcalendar-fill:before {
+  content: "\e8c3";
+}
+
+.#{$namespace}-iconPartition:before {
+  content: "\e9c3";
+}
+
+.#{$namespace}-iconborder-horizontal:before {
+  content: "\e7c4";
+}
+
+.#{$namespace}-iconcalculator-fill:before {
+  content: "\e8c4";
+}
+
+.#{$namespace}-iconindex:before {
+  content: "\e9c4";
+}
+
+.#{$namespace}-iconradius-bottomleft:before {
+  content: "\e7c5";
+}
+
+.#{$namespace}-iconinteration-fill:before {
+  content: "\e8c5";
+}
+
+.#{$namespace}-iconStoredprocedure:before {
+  content: "\e9c5";
+}
+
+.#{$namespace}-iconradius-bottomright:before {
+  content: "\e7c6";
+}
+
+.#{$namespace}-iconproject-fill:before {
+  content: "\e8c6";
+}
+
+.#{$namespace}-iconField-Binary:before {
+  content: "\e9c6";
+}
+
+.#{$namespace}-iconradius-upleft:before {
+  content: "\e7c7";
+}
+
+.#{$namespace}-icondetail-fill:before {
+  content: "\e8c7";
+}
+
+.#{$namespace}-iconConsole-SQL:before {
+  content: "\e9c7";
+}
+
+.#{$namespace}-iconradius-upright:before {
+  content: "\e7c8";
+}
+
+.#{$namespace}-iconsave-fill:before {
+  content: "\e8c8";
+}
+
+.#{$namespace}-iconicon-test:before {
+  content: "\e9c8";
+}
+
+.#{$namespace}-iconradius-setting:before {
+  content: "\e7c9";
+}
+
+.#{$namespace}-iconwallet-fill:before {
+  content: "\e8c9";
+}
+
+.#{$namespace}-iconaim:before {
+  content: "\e9c9";
+}
+
+.#{$namespace}-iconadduser:before {
+  content: "\e7ca";
+}
+
+.#{$namespace}-iconcontrol-fill:before {
+  content: "\e8ca";
+}
+
+.#{$namespace}-iconcompress:before {
+  content: "\e9ca";
+}
+
+.#{$namespace}-icondeleteteam:before {
+  content: "\e7cb";
+}
+
+.#{$namespace}-iconlayout-fill:before {
+  content: "\e8cb";
+}
+
+.#{$namespace}-iconexpend:before {
+  content: "\e9cb";
+}
+
+.#{$namespace}-icondeleteuser:before {
+  content: "\e7cc";
+}
+
+.#{$namespace}-iconappstore-fill:before {
+  content: "\e8cc";
+}
+
+.#{$namespace}-iconfolder-view:before {
+  content: "\e9cc";
+}
+
+.#{$namespace}-iconaddteam:before {
+  content: "\e7cd";
+}
+
+.#{$namespace}-iconmobile-fill:before {
+  content: "\e8cd";
+}
+
+.#{$namespace}-iconfile-GIF:before {
+  content: "\e9cd";
+}
+
+.#{$namespace}-iconuser:before {
+  content: "\e7ce";
+}
+
+.#{$namespace}-icontablet-fill:before {
+  content: "\e8ce";
+}
+
+.#{$namespace}-icongroup:before {
+  content: "\e9ce";
+}
+
+.#{$namespace}-iconteam:before {
+  content: "\e7cf";
+}
+
+.#{$namespace}-iconbook-fill:before {
+  content: "\e8cf";
+}
+
+.#{$namespace}-iconsend:before {
+  content: "\e9cf";
+}
+
+.#{$namespace}-iconareachart:before {
+  content: "\e7d0";
+}
+
+.#{$namespace}-iconredenvelope-fill:before {
+  content: "\e8d0";
+}
+
+.#{$namespace}-iconReport:before {
+  content: "\e9d0";
+}
+
+.#{$namespace}-iconlinechart:before {
+  content: "\e7d1";
+}
+
+.#{$namespace}-iconsafetycertificate-f:before {
+  content: "\e8d1";
+}
+
+.#{$namespace}-iconView:before {
+  content: "\e9d1";
+}
+
+.#{$namespace}-iconbarchart:before {
+  content: "\e7d2";
+}
+
+.#{$namespace}-iconpropertysafety-fill:before {
+  content: "\e8d2";
+}
+
+.#{$namespace}-iconshortcut:before {
+  content: "\e9d2";
+}
+
+.#{$namespace}-iconpointmap:before {
+  content: "\e7d3";
+}
+
+.#{$namespace}-iconinsurance-fill:before {
+  content: "\e8d3";
+}
+
+.#{$namespace}-iconungroup:before {
+  content: "\e9d3";
+}
+
+.#{$namespace}-iconcontainer:before {
+  content: "\e7d4";
+}
+
+.#{$namespace}-iconsecurityscan-fill:before {
+  content: "\e8d4";
+}
+
+.#{$namespace}-icondatabase:before {
+  content: "\e7d5";
+}
+
+.#{$namespace}-iconfile-exclamation-fil:before {
+  content: "\e8d5";
+}
+
+.#{$namespace}-iconsever:before {
+  content: "\e7d6";
+}
+
+.#{$namespace}-iconfile-add-fill:before {
+  content: "\e8d6";
+}
+
+.#{$namespace}-iconmobile:before {
+  content: "\e7d7";
+}
+
+.#{$namespace}-iconfile-fill:before {
+  content: "\e8d7";
+}
+
+.#{$namespace}-icontablet:before {
+  content: "\e7d8";
+}
+
+.#{$namespace}-iconfile-excel-fill:before {
+  content: "\e8d8";
+}
+
+.#{$namespace}-iconredenvelope:before {
+  content: "\e7d9";
+}
+
+.#{$namespace}-iconfile-markdown-fill:before {
+  content: "\e8d9";
+}
+
+.#{$namespace}-iconbook:before {
+  content: "\e7da";
+}
+
+.#{$namespace}-iconfile-text-fill:before {
+  content: "\e8da";
+}
+
+.#{$namespace}-iconfiledone:before {
+  content: "\e7db";
+}
+
+.#{$namespace}-iconfile-ppt-fill:before {
+  content: "\e8db";
+}
+
+.#{$namespace}-iconreconciliation:before {
+  content: "\e7dc";
+}
+
+.#{$namespace}-iconfile-unknown-fill:before {
+  content: "\e8dc";
+}
+
+.#{$namespace}-iconfile-exception:before {
+  content: "\e7dd";
+}
+
+.#{$namespace}-iconfile-word-fill:before {
+  content: "\e8dd";
+}
+
+.#{$namespace}-iconfilesync:before {
+  content: "\e7de";
+}
+
+.#{$namespace}-iconfile-zip-fill:before {
+  content: "\e8de";
+}
+
+.#{$namespace}-iconfilesearch:before {
+  content: "\e7df";
+}
+
+.#{$namespace}-iconfile-pdf-fill:before {
+  content: "\e8df";
+}
+
+.#{$namespace}-iconsolution:before {
+  content: "\e7e0";
+}
+
+.#{$namespace}-iconfile-image-fill:before {
+  content: "\e8e0";
+}
+
+.#{$namespace}-iconfileprotect:before {
+  content: "\e7e1";
+}
+
+.#{$namespace}-icondiff-fill:before {
+  content: "\e8e1";
+}
+
+.#{$namespace}-iconfile-add:before {
+  content: "\e7e2";
+}
+
+.#{$namespace}-iconfile-copy-fill:before {
+  content: "\e8e2";
+}
+
+.#{$namespace}-iconfile-excel:before {
+  content: "\e7e3";
+}
+
+.#{$namespace}-iconsnippets-fill:before {
+  content: "\e8e3";
+}
+
+.#{$namespace}-iconfile-exclamation:before {
+  content: "\e7e4";
+}
+
+.#{$namespace}-iconbatchfolding-fill:before {
+  content: "\e8e4";
+}
+
+.#{$namespace}-iconfile-pdf:before {
+  content: "\e7e5";
+}
+
+.#{$namespace}-iconreconciliation-fill:before {
+  content: "\e8e5";
+}
+
+.#{$namespace}-iconfile-image:before {
+  content: "\e7e6";
+}
+
+.#{$namespace}-iconfolder-add-fill:before {
+  content: "\e8e6";
+}
+
+.#{$namespace}-iconfile-markdown:before {
+  content: "\e7e7";
+}
+
+.#{$namespace}-iconfolder-fill:before {
+  content: "\e8e7";
+}
+
+.#{$namespace}-iconfile-unknown:before {
+  content: "\e7e8";
+}
+
+.#{$namespace}-iconfolder-open-fill:before {
+  content: "\e8e8";
+}
+
+.#{$namespace}-iconfile-ppt:before {
+  content: "\e7e9";
+}
+
+.#{$namespace}-icondatabase-fill:before {
+  content: "\e8e9";
+}
+
+.#{$namespace}-iconfile-word:before {
+  content: "\e7ea";
+}
+
+.#{$namespace}-iconcontainer-fill:before {
+  content: "\e8ea";
+}
+
+.#{$namespace}-iconfile:before {
+  content: "\e7eb";
+}
+
+.#{$namespace}-iconsever-fill:before {
+  content: "\e8eb";
+}
+
+.#{$namespace}-iconfile-zip:before {
+  content: "\e7ec";
+}
+
+.#{$namespace}-iconcalendar-check-fill:before {
+  content: "\e8ec";
+}
+
+.#{$namespace}-iconfile-text:before {
+  content: "\e7ed";
+}
+
+.#{$namespace}-iconimage-fill:before {
+  content: "\e8ed";
+}
+
+.#{$namespace}-iconfile-copy:before {
+  content: "\e7ee";
+}
+
+.#{$namespace}-iconidcard-fill:before {
+  content: "\e8ee";
+}
+
+.#{$namespace}-iconsnippets:before {
+  content: "\e7ef";
+}
+
+.#{$namespace}-iconcreditcard-fill:before {
+  content: "\e8ef";
+}
+
+.#{$namespace}-iconaudit:before {
+  content: "\e7f0";
+}
+
+.#{$namespace}-iconfund-fill:before {
+  content: "\e8f0";
+}
+
+.#{$namespace}-icondiff:before {
+  content: "\e7f1";
+}
+
+.#{$namespace}-iconread-fill:before {
+  content: "\e8f1";
+}
+
+.#{$namespace}-iconBatchfolding:before {
+  content: "\e7f2";
+}
+
+.#{$namespace}-iconcontacts-fill:before {
+  content: "\e8f2";
+}
+
+.#{$namespace}-iconsecurityscan:before {
+  content: "\e7f3";
+}
+
+.#{$namespace}-icondelete-fill:before {
+  content: "\e8f3";
+}
+
+.#{$namespace}-iconpropertysafety:before {
+  content: "\e7f4";
+}
+
+.#{$namespace}-iconnotification-fill:before {
+  content: "\e8f4";
+}
+
+.#{$namespace}-iconsafetycertificate:before {
+  content: "\e7f5";
+}
+
+.#{$namespace}-iconflag-fill:before {
+  content: "\e8f5";
+}
+
+.#{$namespace}-iconinsurance:before {
+  content: "\e7f6";
+}
+
+.#{$namespace}-iconmoneycollect-fill:before {
+  content: "\e8f6";
+}
+
+.#{$namespace}-iconalert:before {
+  content: "\e7f7";
+}
+
+.#{$namespace}-iconmedicinebox-fill:before {
+  content: "\e8f7";
+}
+

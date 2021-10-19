@@ -1,0 +1,30 @@
+{
+  "private": true,
+  "version": "1.0.0",
+  "description": "",
+  "devDependencies": {
+    "@types/gulp": "^4.0.9",
+    "@types/node": "^16.11.1",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-sass": "^5.0.0",
+    "gulp-typescript": "^6.0.0-alpha.1",
+    "sass": "^1.43.2",
+    "sucrase": "^3.20.2",
+    "typescript": "^4.4.4",
+    "vue": "^3.2.20"
+  },
+  "scripts": {
+    "dev": "pnpm -C play dev",
+    "build": "gulp -f build/gulpfile.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@dd-plus/components": "workspace:^1.0.0",
+    "@dd-plus/theme-chalk": "workspace:^1.0.0",
+    "@dd-plus/utils": "workspace:^1.0.0"
+  }
+}
